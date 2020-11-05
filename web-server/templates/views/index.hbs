@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    {{>header}}
+        <div>
+            <p>Input location and get weather</p>
+            <form >
+                <input type="text" id="address" required />
+                <button type="submit" >Search</button>
+            </form>
+            <p id="p1" ></p>
+            <p id="p2" ></p>
+        </div>
+    {{>footer}}
+    <script src="script/app.js"></script>
+</body>
+</html>
